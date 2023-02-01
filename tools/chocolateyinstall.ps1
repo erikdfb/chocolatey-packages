@@ -24,7 +24,7 @@ if (Get-ProcessorBits 64) {
 }
  
  $params = @{
-   PackageName    = 'databricks-odbcdriver'
+   PackageName    = $packageName
    FileType       = 'msi'
    File           = $fileLocation
    SilentArgs     = "/qn /norestart"
