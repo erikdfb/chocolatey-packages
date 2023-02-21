@@ -4,18 +4,20 @@
     <!-- == PACKAGE SPECIFIC SECTION == -->
     <id>databricks-odbcdriver</id>
     <version>2.6.29</version>
-    <packageSourceUrl>https://github.com/erikdfb/chocolatey-packages/</packageSourceUrl>
+    <packageSourceUrl>https://github.com/erikdfb/chocolatey-packages/tree/main/databricks-odbcdriver</packageSourceUrl>
     <owners>Erik Barbosa</owners>
     <!-- ============================== -->
     <!-- == SOFTWARE SPECIFIC SECTION == -->
     <title>Databricks ODBC Driver (Install)</title>
     <authors>Simba Technologies Inc.</authors>
     <copyright>©2014–2022 Magnitude Software, Inc.</copyright>
+    <licenseUrl>https://www.databricks.com/legal/jdbc-odbc-driver-license</licenseUrl>
     <projectUrl>https://www.databricks.com/spark/odbc-drivers-download</projectUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
     <tags>databricks odbc driver</tags>
     <summary>Databricks ODBC Driver</summary>
     <description>The Simba Apache Spark ODBC Connector provides ODBC drivers to connect tools or clients to Azure Databricks.</description>
+    <releaseNotes>https://databricks-bi-artifacts.s3.us-east-2.amazonaws.com/simbaspark-drivers/odbc/2.6.29/docs/release-notes.txt</releaseNotes>
     <!-- ============================== -->
   </metadata>
   <files>
